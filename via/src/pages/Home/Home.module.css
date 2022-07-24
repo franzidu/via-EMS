@@ -1,0 +1,29 @@
+.Home {
+  font-family: "Source-Code-Pro Bold";
+  text-align: center;
+  color: #707070;
+}
+
+.Home :global p {
+  font-family: "Karla Bold";
+}
+
+.Home :global .viaMain {
+  width: 100%;
+  margin-bottom: -10%;
+  margin-top: -10%;
+}
+
+.Home :global .next {
+  font-size: 30px;
+  background-color: #e5e5e5;
+  border-radius: 25px;
+  border-style: none;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-family: "Karla Bold";
+  color: #707070;
+  box-shadow: 0px 5px 9px 1px #b4b4b4;
+}

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Source-Code-Pro Bold";
+  src: url(./assets/fonts/Source-Code-Pro/SourceCodePro-Bold.ttf)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Karla Bold";
+  src: url(./assets/fonts/Karla/Karla-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Karla Regular";
+  src: url(./assets/fonts/Karla/Karla-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Karla Medium";
+  src: url(./assets/fonts/Karla/Karla-Medium.ttf) format("truetype");
+}
