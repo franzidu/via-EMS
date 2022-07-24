@@ -7,11 +7,11 @@ function Home() {
     <div className={styles.Home}>
       <img className="viaMain" src={via_main} alt="" />
       <h1>Kommunikation im Straßenverkehr</h1>
-      <p>mit via</p>
-      <button href="#section1" className="next">
-        weiter
-      </button>
-      <section className="section1" id="section1">
+      <a className="next" href="#section1">weiter</a>
+
+      <div className="content-container">
+      <div className="content">
+        <section className="sections" id="section1">
         <h3>Unfälle mit Fahrrädern werden immer Häufiger</h3>
         <h4>Fact</h4>
         <p>
@@ -20,7 +20,11 @@ function Home() {
           sed diam voluptua.
         </p>
       </section>
-      <section className="section2" id="section2">
+      <a className="next" href="#section2">weiter</a>
+      </div>
+
+      <div className="content">
+      <section className="sections" id="section2">
         <h3>Das ist das Problem</h3>
         <h4>Problem</h4>
         <p>
@@ -29,7 +33,11 @@ function Home() {
           sed diam voluptua.
         </p>
       </section>
-      <section className="section3" id="section3">
+      <a className="next" href="#section3">weiter</a>
+      </div>
+
+      <div className="content">
+      <section className="sections" id="section3">
         <h3>So entwickelt sich das problem</h3>
         <h4>autonomes fahren, ablenkung im straßenverkehr</h4>
         <p>
@@ -38,7 +46,11 @@ function Home() {
           sed diam voluptua.
         </p>
       </section>
-      <section className="section4" id="section4">
+      <a className="next" href="#section4">weiter</a>
+      </div>
+
+      <div className="content">
+      <section className="sections" id="section4">
         <h3>Was ist via?</h3>
         <h4>wie hilft es dabei?</h4>
         <p>
@@ -47,13 +59,16 @@ function Home() {
           sed diam voluptua.
         </p>
       </section>
-      <p>
-        hier kommt ein szenario wo via zum einsatz kommt, nutzerbezogen und
-        emotional, evtl mit choice degöns
-      </p>
-      <button href="" className="next">
-        story
-      </button>
+      {/* <a className="next" href="#szenario">weiter</a> */}
+      </div>
+
+        <div className="Szenario" id="szenario">
+          <p>
+            hier kommt ein szenario wo via zum einsatz kommt, nutzerbezogen und
+          emotional, evtl mit choice degöns
+          </p>
+        </div>
+      </div>
       <footer>
         <p> Ein Projekt von ...</p>
       </footer>

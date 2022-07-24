@@ -18,3 +18,7 @@
   font-family: "Karla Medium";
   src: url(./assets/fonts/Karla/Karla-Medium.ttf) format("truetype");
 }
+
+html{
+  scroll-behavior: smooth;
+}

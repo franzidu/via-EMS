@@ -1,12 +1,33 @@
 .Home {
-  font-family: "Source-Code-Pro Bold";
   text-align: center;
   color: #707070;
+  margin-left:1%;
+  margin-right :1%
 }
 
 .Home :global p {
   font-family: "Karla Bold";
+  margin: 5%;
+  font-size: 2vw;;
 }
+
+.Home :global h1 {
+  font-family: "Source-Code-Pro Bold";
+  font-size:5vw;
+}
+.Home :global h2 {
+  font-family: "Source-Code-Pro Bold";
+  font-size:4vw;
+}
+.Home :global h3 {
+  font-family: "Source-Code-Pro Bold";
+  font-size:3vw;
+}
+.Home :global h4 {
+  font-family: "Source-Code-Pro Bold";
+  font-size:2vw;
+}
+
 
 .Home :global .viaMain {
   width: 100%;
@@ -15,10 +36,13 @@
 }
 
 .Home :global .next {
-  font-size: 30px;
+  font-size: 3vw;
   background-color: #e5e5e5;
   border-radius: 25px;
   border-style: none;
+  display:inline-block;
+  margin-top:2%;
+  margin-bottom:2%;
   padding-left: 3%;
   padding-right: 3%;
   padding-top: 1%;
@@ -26,4 +50,17 @@
   font-family: "Karla Bold";
   color: #707070;
   box-shadow: 0px 5px 9px 1px #b4b4b4;
+  text-decoration: none;
+  
+}
+.Home :global .content-container{
+  margin-top:10%;
+}
+
+.Home :global .content{
+  margin-top:20vh;
+  margin-bottom:20vh;
+}
+.Home :global .sections{
+  padding-top:20%;
 }
