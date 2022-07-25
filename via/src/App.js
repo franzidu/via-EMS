@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home.jsx";
-import Story from "./pages/story/Story.jsx";
+import Story from "./pages/Story/Story.jsx";
 
 function App() {
   return (
