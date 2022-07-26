@@ -42,38 +42,25 @@ function Home() {
         </div>
 
         <div className="content">
-          <section className="sections" id="section3">
-            <h3>So entwickelt sich das problem</h3>
-            <h4>autonomes fahren, ablenkung im straßenverkehr</h4>
+          <section className="sections" id="section4">
+            <h3>Was ist via?</h3>
+            <h4>und was hat es damit zu tun?</h4>
             <p className="text">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua.
+              Mit via können Verkehrsteilnehmer direkt kommunizieren und so
+              gefährliche Situationen entschärfen. via ist ein earpiece, das in
+              ein Ohr eingesteckt wird ohne die Umgebung abzuschrimen.
             </p>
           </section>
-          <a className="next" href="#section4">
+          <a className="next" href="/Story">
             weiter
           </a>
         </div>
-
-        <div className="content">
-          <section className="sections" id="section4">
-            <h3>Was ist via?</h3>
-            <h4>wie hilft es dabei?</h4>
-            <p className="text">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua.
-            </p>
-          </section>
-          {/* <a className="next" href="#szenario">weiter</a> */}
-        </div>
-        <div className="szenario" id="szenario">
+        {/* <div className="szenario" id="szenario">
           <p>
             hier kommt ein szenario wo via zum einsatz kommt, nutzerbezogen und
             emotional, evtl mit choice degöns
           </p>
-        </div>
+        </div> */}
       </div>
       <footer>
         <div className="footer">
