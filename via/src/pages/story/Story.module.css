@@ -1,33 +1,91 @@
-.Story {
+.TestStory {
   text-align: center;
   color: #707070;
   margin-left: 1%;
   margin-right: 1%;
 }
 
-.Story :global p {
+.TestStory :global p {
   font-family: "Karla Bold";
+  font-size: 1.5vw;
 }
 
-.Story :global .text {
+.TestStory :global .text {
   font-family: "Karla Bold";
   margin: 5%;
   font-size: 2vw;
 }
 
-.Story :global h1 {
+.TestStory :global h1 {
   font-family: "Source-Code-Pro Bold";
   font-size: 5vw;
 }
-.Story :global h2 {
+.TestStory :global h2 {
   font-family: "Source-Code-Pro Bold";
   font-size: 4vw;
 }
-.Story :global h3 {
+.TestStory :global h3 {
   font-family: "Source-Code-Pro Bold";
   font-size: 3vw;
 }
-.Story :global h4 {
+.TestStory :global h4 {
   font-family: "Source-Code-Pro Bold";
   font-size: 2vw;
+}
+
+.TestStory :global .viaMain {
+  width: 100%;
+  margin-bottom: -10%;
+  margin-top: -10%;
+}
+
+.TestStory :global .next {
+  font-size: 3vw;
+  background-color: #e5e5e5;
+  border-radius: 25px;
+  border-style: none;
+  display: inline-block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-family: "Karla Bold";
+  color: #707070;
+  box-shadow: 0px 5px 9px 1px #b4b4b4;
+  text-decoration: none;
+}
+.TestStory :global .content-container {
+  margin-top: 10%;
+}
+
+.TestStory :global .content {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+.TestStory :global .sections {
+  padding-top: 15%;
+}
+
+.TestStory :global .footer {
+  font-size: 1vw;
+}
+.TestStory :global li {
+  font-size: 2vw;
+  background-color: #e5e5e5;
+  border-radius: 25px;
+  border-style: none;
+  display: inline-block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-family: "Karla Bold";
+  color: #707070;
+  box-shadow: 0px 5px 9px 1px #b4b4b4;
+  text-decoration: none;
+  list-style: none;
 }

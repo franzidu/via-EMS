@@ -42,7 +42,7 @@ function Home() {
         </div>
 
         <div className="content">
-          <section className="sections" id="section4">
+          <section className="sections" id="section3">
             <h3>Was ist via?</h3>
             <h4>und was hat es damit zu tun?</h4>
             <p className="text">
